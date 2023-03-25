@@ -15,7 +15,7 @@
 #include "esp32-hal.h"
 
 #if (__GNUC__ > 4) || (__GNUC__ == 4 && __GNUC_MINOR__ >= 4)
-#define FASTLED_HAS_PRAGMA_MESSAGE
+//#define FASTLED_HAS_PRAGMA_MESSAGE
 #endif
 
 #if 0 // tired of these warning messages
